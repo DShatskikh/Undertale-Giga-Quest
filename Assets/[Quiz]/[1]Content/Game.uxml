@@ -1,0 +1,49 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/[Quiz]/[1]Content/UndertaleStyle.uss?fileID=7433441132597879392&amp;guid=7d8bbdd2123f1a142bd0ad22859274d1&amp;type=3#UndertaleStyle" />
+    <ui:VisualElement name="root" style="flex-grow: 0; flex-basis: auto; flex-shrink: 0; align-items: auto; justify-content: center; align-self: stretch; flex-direction: row; margin-top: 20px; margin-right: 20px; margin-left: 20px; width: auto; height: auto;">
+        <ui:VisualElement name="Left" style="flex-grow: 1; align-self: flex-start; align-items: flex-start; justify-content: flex-start; margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding-right: 0;">
+            <ui:VisualElement name="Container" style="flex-grow: 0; flex-shrink: 0; width: 120px; height: 120px; margin-bottom: 20px;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="settings_button" class="button" style="margin-top: 0; margin-right: 0; margin-bottom: 20px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-image: url(&apos;project://database/Assets/[Quiz]/[1]Content/UI.png?fileID=-16999932&amp;guid=23a1cb66bd84bc242816d623848e81c7&amp;type=3#UI_6&apos;); -unity-background-scale-mode: stretch-to-fill; -unity-slice-scale: 0; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; align-self: center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Container" style="flex-grow: 0; flex-shrink: 0; width: 120px; height: 120px;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="sound_button" class="button" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-image: url(&apos;project://database/Assets/[Quiz]/[1]Content/UI.png?fileID=-1827712316&amp;guid=23a1cb66bd84bc242816d623848e81c7&amp;type=3#UI_5&apos;); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; align-self: center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" style="flex-grow: 1; align-self: flex-end; align-items: flex-end; justify-content: flex-start; margin-top: 0; margin-left: 0; flex-shrink: 0; position: relative; flex-direction: column;">
+            <ui:VisualElement name="Heards" style="flex-grow: 0; align-items: stretch; flex-direction: row; width: 230px; height: 100px; flex-shrink: 0; margin-bottom: 30px;">
+                <ui:VisualElement name="heart1" class="heart" style="flex-grow: 1; width: 120px; height: auto;" />
+                <ui:VisualElement name="heart2" class="heart" style="flex-grow: 1; width: 120px; height: auto;" />
+                <ui:VisualElement name="heart3" class="heart" style="flex-grow: 1; width: 120px; height: auto;" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="ВОПРОС" parse-escape-sequences="true" display-tooltip-when-elided="true" class="label" style="margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            <ui:Label tabindex="-1" text="1 ИЗ 35" parse-escape-sequences="true" display-tooltip-when-elided="true" name="progress_label" class="label" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 45px; margin-left: 0; color: rgb(255, 255, 0);" />
+            <ui:Label tabindex="-1" text="ОЧКИ" parse-escape-sequences="true" display-tooltip-when-elided="true" class="label" style="margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            <ui:Label tabindex="-1" text="98" parse-escape-sequences="true" display-tooltip-when-elided="true" name="score_label" class="label" style="margin-top: 0; margin-right: 0; margin-bottom: 45px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(255, 255, 0);" />
+            <ui:Label tabindex="-1" text="ОЧКИ ТЕСТА" parse-escape-sequences="true" display-tooltip-when-elided="true" class="label" style="margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="test_score_label" class="label" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(255, 255, 0);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="question_image" style="flex-grow: 1; top: 182px; position: absolute; left: 392px; right: 411px; bottom: 285px; width: auto; height: auto; align-self: center; justify-content: flex-start; align-items: stretch; overflow: visible; background-image: url(&apos;project://database/Assets/[Quiz]/[1]Content/5d83ef77f4f58686ad97474680ecb50b.png?fileID=2800000&amp;guid=182c378060850ce41a6f4b38987d7ae4&amp;type=3#5d83ef77f4f58686ad97474680ecb50b&apos;); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px;">
+        <ui:VisualElement name="Container" class="button" style="flex-grow: 1; background-image: none; position: absolute; height: 106px; width: 706px; left: 216px; top: -58px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="question_label" style="color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Container" style="flex-grow: 1; position: absolute; height: 246px; width: 1694px; top: 556px; left: -290px; flex-direction: row; flex-wrap: nowrap;">
+            <ui:VisualElement name="Left" style="flex-grow: 1; flex-shrink: 0; align-self: flex-start; justify-content: space-between; padding-right: 20px; margin-right: 0; width: 120px; align-items: flex-start; height: 120px; flex-direction: column; flex-wrap: nowrap;">
+                <ui:VisualElement name="Container" style="flex-grow: 1; align-items: stretch; align-self: auto; justify-content: flex-start; width: 100%; height: 100%; flex-shrink: 0; margin-bottom: 15px;">
+                    <ui:Button text="Ответ 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="question_button1" class="button" style="align-self: center; justify-content: flex-start; align-items: auto; flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 15px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Container" style="flex-grow: 1; flex-shrink: 0; width: 100%; height: 100%;">
+                    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="question_button3" class="button" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-self: center;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Right" style="flex-grow: 1; flex-shrink: 0; justify-content: space-between; margin-bottom: 0; padding-left: 20px; padding-right: 0; width: 120px; align-self: flex-start; align-items: flex-end; height: 120px;">
+                <ui:VisualElement name="Container" style="flex-grow: 1; align-items: stretch; align-self: auto; justify-content: flex-start; width: 100%; height: 100%; flex-shrink: 0; margin-bottom: 15px;">
+                    <ui:Button text="Ответ 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="question_button2" class="button" style="align-self: center; justify-content: flex-start; align-items: auto; flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 15px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Container" style="flex-grow: 1; flex-shrink: 0; width: 100%; height: 100%;">
+                    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="question_button4" class="button" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-self: center;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

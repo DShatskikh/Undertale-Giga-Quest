@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\s-den\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\s-den\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Quiz.404090292.00" t="ExcludeRecursive" />
+    <e p="C:\Users\s-den\Quiz" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="[Quiz]" t="Include">
+          <e p="[0]Code" t="Include">
+            <e p="AssetProvider.cs" t="Include" />
+            <e p="Game.cs" t="Include" />
+            <e p="HeartsViewUpdater.cs" t="Include" />
+            <e p="LevelData.cs" t="Include" />
+            <e p="Manager.cs" t="Include" />
+            <e p="Menu.cs" t="Include" />
+            <e p="SoundManager.cs" t="Include" />
+            <e p="SoundViewUpdater.cs" t="Include" />
+          </e>
+          <e p="[1]Content" t="Include">
+            <e p="End.uxml" t="Include" />
+            <e p="EndStyle.uss" t="Include" />
+            <e p="Game.uxml" t="Include" />
+            <e p="Menu.uxml" t="Include" />
+            <e p="References" t="Include" />
+            <e p="Sounds" t="Include" />
+            <e p="Sprites" t="Include" />
+            <e p="UndertaleStyle.uss" t="Include" />
+          </e>
+          <e p="Scenes" t="Include" />
+        </e>
+        <e p="Lana Studio" t="Include">
+          <e p="Hyper Casual FX" t="Include">
+            <e p="Demo" t="Include">
+              <e p="Animations" t="Include" />
+              <e p="Readme.txt" t="Include" />
+              <e p="Scenes" t="Include" />
+            </e>
+            <e p="Materials" t="Include" />
+            <e p="Models" t="Include" />
+            <e p="Prefabs" t="Include">
+              <e p="Area" t="Include" />
+              <e p="Confetti" t="Include" />
+              <e p="Dust" t="Include" />
+              <e p="Flash" t="Include" />
+              <e p="Shine" t="Include" />
+              <e p="Sparkle" t="Include" />
+              <e p="Water" t="Include" />
+            </e>
+            <e p="Textures" t="Include" />
+          </e>
+        </e>
+        <e p="UI Toolkit" t="Include">
+          <e p="UnityThemes" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Quiz.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

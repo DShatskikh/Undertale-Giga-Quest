@@ -1,0 +1,61 @@
+.label {
+    -unity-text-align: upper-center;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: normal;
+    -unity-font-definition: url('project://database/Assets/[Quiz]/[1]Content/determinationmonorusbylyajk%20SDF.asset?fileID=11400000&guid=b2604111b14e2d640bad989a90b8603a&type=2#determinationmonorusbylyajk SDF');
+}
+
+.button {
+    background-image: none;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    background-color: rgb(0, 0, 0);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    -unity-font-definition: url('project://database/Assets/[Quiz]/[1]Content/determinationmonorusbylyajk%20SDF.asset?fileID=11400000&guid=b2604111b14e2d640bad989a90b8603a&type=2#determinationmonorusbylyajk SDF');
+    -unity-font-style: normal;
+    -unity-font: url('project://database/Assets/[Quiz]/[1]Content/determinationmonorusbylyajk.otf?fileID=12800000&guid=4572a598ad612b44da1dade18d15060e&type=3#determinationmonorusbylyajk');
+    width: 100%;
+    height: 100%;
+    transition-duration: 200ms;
+}
+
+.button:hover {
+    width: 110%;
+    height: 110%;
+    transition-duration: 200ms;
+    border-left-color: rgb(0, 75, 255);
+    border-right-color: rgb(0, 75, 255);
+    border-top-color: rgb(0, 75, 255);
+    border-bottom-color: rgb(0, 75, 255);
+    -unity-background-image-tint-color: rgb(0, 75, 255);
+}
+
+.button:active {
+    color: rgb(255, 255, 0);
+    border-left-color: rgb(255, 255, 0);
+    border-right-color: rgb(255, 255, 0);
+    border-top-color: rgb(255, 255, 0);
+    border-bottom-color: rgb(255, 255, 0);
+    background-color: rgb(0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 0);
+    width: 95%;
+    height: 95%;
+    transition-duration: 100ms;
+    transition-timing-function: ease;
+}
+
+.heart {
+    background-image: url('project://database/Assets/[Quiz]/[1]Content/UI.png?fileID=-728980094&guid=23a1cb66bd84bc242816d623848e81c7&type=3#UI_1');
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-background-scale-mode: scale-to-fit;
+    margin-right: 10px;
+}
