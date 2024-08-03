@@ -33,8 +33,8 @@ public class Menu : MonoBehaviour
         var allScoreLabel = UIDocument.rootVisualElement.Q<Label>("all_score_label");
         allScoreLabel.text = $"Всего очков: {score1 + score2 + score3}";
 
-        if (GameData.Hearts < 1)
-            GameData.Hearts = 1;
+        if (GameData.Hearts < Constants.DefaultHeartCount)
+            GameData.Hearts = Constants.DefaultHeartCount;
         
         _heartsView.Updater();
         
@@ -48,7 +48,7 @@ public class Menu : MonoBehaviour
     private void OnAdsButtonClicked()
     {
         _soundManager.ClickPlay();
-        GameData.Hearts++;
+        GameData.Hearts += 2;
         _heartsView.Updater();
     }
 

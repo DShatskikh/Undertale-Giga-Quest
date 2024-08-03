@@ -12,9 +12,9 @@ public class HeartsViewUpdater : MonoBehaviour
 
     public void Updater()
     {
-        for (int i = 1; i <= 3; i++)
+        for (int i = 1; i <= Constants.MaxHeartCount; i++)
         {
-            var heart3 = _uIDocument.rootVisualElement.Q<VisualElement>($"heart{4 - i}");
+            var heart3 = _uIDocument.rootVisualElement.Q<VisualElement>($"heart{Constants.MaxHeartCount + 1 - i}");
             var back3 = heart3.style.backgroundImage.value;
             
             if (GameData.Hearts < i)

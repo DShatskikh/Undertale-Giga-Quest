@@ -5,7 +5,7 @@ public class Manager : MonoBehaviour
 {
     private void Awake()
     {
-        GameData.Hearts = PlayerPrefs.GetInt("Hearts", 1);
+        GameData.Hearts = PlayerPrefs.GetInt("Hearts", Constants.DefaultHeartCount);
     }
 }
 
